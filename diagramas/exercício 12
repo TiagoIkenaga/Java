@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2020-08-12T20:40:00.405Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="UQuPihrz1znRh5Kw3qVZ" version="13.6.2" type="github">
+  <diagram id="Mw2WMhKcumn5EnqCx_A2" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-1" value="&amp;nbsp;custo de um carro novo (cC)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HZoFseAuOsW7Ft9d2wSX-2" target="HZoFseAuOsW7Ft9d2wSX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-2" value="início" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HZoFseAuOsW7Ft9d2wSX-3" target="HZoFseAuOsW7Ft9d2wSX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-3" value="Inserir Custo de Fábrica&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HZoFseAuOsW7Ft9d2wSX-4" target="HZoFseAuOsW7Ft9d2wSX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-4" value="ler (cF)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HZoFseAuOsW7Ft9d2wSX-5" target="HZoFseAuOsW7Ft9d2wSX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="380" />
+              <mxPoint x="280" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HZoFseAuOsW7Ft9d2wSX-5" target="HZoFseAuOsW7Ft9d2wSX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-5" value="cF = null" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-10" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HZoFseAuOsW7Ft9d2wSX-12" target="HZoFseAuOsW7Ft9d2wSX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-12" value="cC = cF * (1+0,28+0,45)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-14" value="Não&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HZoFseAuOsW7Ft9d2wSX-15" target="HZoFseAuOsW7Ft9d2wSX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-15" value="Exibir cC" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="544.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZoFseAuOsW7Ft9d2wSX-16" value="fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="650" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
