@@ -1,4 +1,3 @@
-package Exercícios;
 import java.util.Scanner;
 public class Exercicio01 {
     public static void main(String[] args) {
@@ -6,13 +5,13 @@ public class Exercicio01 {
 
         System.out.println("Vamos calcular uma divisão.");
         System.out.println("Digite o numerador:");
-        int numerador = scanner.nextInt();
+        float numerador = scanner.nextFloat();
 
         System.out.println("Digite o denominador:");
-        int denominador = scanner.nextInt();
+        float denominador = scanner.nextFloat();
 
         if (denominador != 0) {
-            int resultado = numerador/denominador;
+            float resultado = numerador/denominador;
             System.out.println("O resultado da divisão é: " + resultado);
         } else {
             System.out.println("Não é possível realizar divisão pelo número 0");

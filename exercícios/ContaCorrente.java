@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class ContaCorrente {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -38,6 +37,7 @@ public class ContaCorrente {
         if (senhaEhValida == true) {
             System.out.println("Acesso permitido.");
         }
+        scanner.close();
     }
 }
 
