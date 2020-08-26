@@ -12,7 +12,7 @@ public class ContaCorrente {
         int cont = 0;
         
         while(ehValido == false) {
-            System.out.println("Digite sua agencia: ");
+            System.out.println("Digite sua agência: ");
             int agencia = scanner.nextInt();
             
             System.out.println("Digite sua conta: ");
@@ -36,6 +36,7 @@ public class ContaCorrente {
         }
         if (senhaEhValida == true) {
             System.out.println("Acesso permitido.");
+            System.out.println("Seu saldo é de R$"+saldo);
         }
         scanner.close();
     }
