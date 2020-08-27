@@ -12,7 +12,7 @@ public class PesoIdeal {
         System.out.println("Por favor insira sua altura em metros:");
         altura = scanner.nextFloat();
 
-        if (sexo == "M") {
+        if (sexo == "M" || sexo == "m") {
             pesoideal = (float) (72.7 * altura - 58);
             System.out.println("Seu peso ideal é de: "+pesoideal+"kg");
         } else {
