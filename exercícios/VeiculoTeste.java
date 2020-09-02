@@ -46,13 +46,13 @@ public class VeiculoTeste {
     public static void exemploEstatico() {
         System.out.println("Classe: "+ Veiculo.metodoEstatico());
 
-        Veiculo carro = new Veiculo();
-        System.out.println("Instância: "+ carro.metodoEstatico());
+        // Veiculo carro = new Veiculo();
+        System.out.println("Instância: "+ Veiculo.metodoEstatico());
 
         Veiculo.atributoEstatico = 5;
-        System.out.println("Instância: "+ carro.metodoEstatico());
+        System.out.println("Instância: "+ Veiculo.metodoEstatico());
 
-        Veiculo novoCarro = new Veiculo();
-        System.out.println("Instância (NC): "+ novoCarro.metodoEstatico());
+        // Veiculo novoCarro = new Veiculo();
+        System.out.println("Instância (NC): "+ Veiculo.metodoEstatico());
     }
 }
